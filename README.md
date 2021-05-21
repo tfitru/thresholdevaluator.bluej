@@ -1,9 +1,9 @@
-# Project Title
+# ThresholdEvaluator
 
 * **Objective**
-    * To create a program which ...
+    * To create a static and instanced conditional evaluator
 * **Purpose**
-    * To gain familiarity with ...
+    * To gain familiarity conditional operators
 * **Description**
     * This application has been provisioned with JUnit tests and boilerplate classes, and method stubs.
     * Complete the method-stub implementation to achieve 100% test-pass rate.
@@ -29,10 +29,6 @@
         * `cd ~/dev`
     * clone the project by executing the following command:
         * `git clone https://github.com/MYUSERNAME/NAMEOFPROJECT`
-
-### Part 4 - Check Build
-* Ensure that the tests run upon opening the project.
-    * You should see `Tests Failed: ${number-of-tests} of ${number-of-tests} tests`
 
 
 
