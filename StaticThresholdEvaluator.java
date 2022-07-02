@@ -9,7 +9,10 @@ public class StaticThresholdEvaluator {
      * @return `true` if `limit` is greater than `threshold`
      */ // TODO - Ensure the respective tests in the `StaticThresholdEvaluatorTest` class passes
     static Boolean isThresholdExceeding(Integer threshold, Integer limit) {
-        return null;
+        if(limit > threshold){
+            return true;
+        } else
+            return false;
     }
 
     /**
@@ -22,7 +25,10 @@ public class StaticThresholdEvaluator {
      * @return `true` if `limit` is greater than `threshold`
      */ // TODO - Create a respective test in the `StaticThresholdEvaluatorTest` class
     static Boolean isThresholdReached(Integer threshold, Integer limit) {
-        return null;
+        if(limit < threshold) {
+            return true;
+        } else
+            return false;
     }
 }
 
